@@ -13,6 +13,8 @@
 		B4FE90ED24F2751B00A4EF88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4FE90EB24F2751B00A4EF88 /* Main.storyboard */; };
 		B4FE90EF24F2751D00A4EF88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4FE90EE24F2751D00A4EF88 /* Assets.xcassets */; };
 		B4FE90F224F2751D00A4EF88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4FE90F024F2751D00A4EF88 /* LaunchScreen.storyboard */; };
+		B4FE90FC24F27B3600A4EF88 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FE90FB24F27B3600A4EF88 /* GameScene.swift */; };
+		B4FE90FE24FB93DF00A4EF88 /* coin01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B4FE90FD24FB93DF00A4EF88 /* coin01.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B4FE90EE24F2751D00A4EF88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4FE90F124F2751D00A4EF88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4FE90F324F2751D00A4EF88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4FE90FB24F27B3600A4EF88 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		B4FE90FD24FB93DF00A4EF88 /* coin01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = coin01.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				B4FE90EE24F2751D00A4EF88 /* Assets.xcassets */,
 				B4FE90F024F2751D00A4EF88 /* LaunchScreen.storyboard */,
 				B4FE90F324F2751D00A4EF88 /* Info.plist */,
+				B4FE90FD24FB93DF00A4EF88 /* coin01.mp3 */,
+				B4FE90FB24F27B3600A4EF88 /* GameScene.swift */,
 			);
 			path = FlappyBird;
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 			files = (
 				B4FE90F224F2751D00A4EF88 /* LaunchScreen.storyboard in Resources */,
 				B4FE90EF24F2751D00A4EF88 /* Assets.xcassets in Resources */,
+				B4FE90FE24FB93DF00A4EF88 /* coin01.mp3 in Resources */,
 				B4FE90ED24F2751B00A4EF88 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 			files = (
 				B4FE90EA24F2751B00A4EF88 /* ViewController.swift in Sources */,
 				B4FE90E624F2751B00A4EF88 /* AppDelegate.swift in Sources */,
+				B4FE90FC24F27B3600A4EF88 /* GameScene.swift in Sources */,
 				B4FE90E824F2751B00A4EF88 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,7 +302,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.kanta.inoue.FlappyBird;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +320,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.kanta.inoue.FlappyBird;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
